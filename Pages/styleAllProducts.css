@@ -1,0 +1,383 @@
+body {
+    background: rgba(0, 0, 0, 0.025);
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    background: #F5F5F5;
+}
+
+.logo_img {
+    height: 52px;
+    width: 54.55px;
+    margin: 25px 15px;
+}
+
+header p {
+    width: 300px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FE8A00;
+    margin-left: 30px;
+}
+
+.shop_word {
+    color: #F61B5A;
+}
+
+.ping_word {
+    color: #F8B326;
+}
+
+.banner {
+    display: flex;
+    background-color: #FE8A00;
+}
+
+.banner_img {
+    height: 364px;
+    width: 253px;
+    background-color: #FE8A00;
+
+}
+
+.banner p {
+    background-color: #FE8A00;
+    width: 367.91px;
+    height: 101.11px;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 90px 400px;
+}
+
+.products_text {
+    width: 368px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 40px 620px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.listProducts {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px;
+}
+
+.products_imgs {
+    height: 320px;
+    width: 320px;
+}
+
+.card_1 {
+    position: relative;
+    padding: 0 20px;
+}
+
+.title_card_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.description_card_1 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+
+.card_1 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.card_2 {
+    position: relative;
+    padding: 0 20px;
+}
+
+.title_card_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.description_card_2 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_2 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.card_3 {
+    position: relative;
+    padding: 0 20px;
+}
+
+.title_card_3 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.description_card_3 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_3 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.card_4 {
+    position: relative;
+    padding: 0 20px;
+}
+
+.title_card_4 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+}
+
+.description_card_4 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_4 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.card_5 {
+    position: relative;
+    padding: 30px 20px;
+}
+
+.title_card_5 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+}
+
+.description_card_5 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_5 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 58px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.card_6 {
+    position: relative;
+    padding: 30px 20px;
+}
+
+.title_card_6 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+}
+
+.description_card_6 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_6 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 58px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.card_7 {
+    position: relative;
+    padding: 30px 20px;
+}
+
+.title_card_7 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+}
+
+.description_card_7 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_7 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 58px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.card_8 {
+    position: relative;
+    padding: 30px 20px;
+}
+
+.title_card_8 {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+}
+
+.description_card_8 {
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_8 i {
+    position: absolute;
+    width: 30px;
+    left: 288px;
+    top: 58px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff0000;
+    line-height: 30px;
+}
+
+.far:hover{
+
+    color: red;
+    background-color:cyan;
+    cursor: pointer;
+}
+
